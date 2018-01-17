@@ -45,7 +45,9 @@ Un design simple et efficace à la porté d'utilisateur sur le terrain, fragilis
 React Native car il y aura un système pour gagner des grades (bonification) pour les hébérgeurs 
 Progressive Web App car la perte du réseau est probable. 
 
+**site map**
 
+![sitemap](/docs/IMG-0471.JPG)
 
 
 

@@ -39,9 +39,12 @@ Refaire le logo car il n'est pas assez représentatif de la mission du site
 
 **Design UX UI**
 Un design simple et efficace à la porté d'utilisateur sur le terrain, fragilisé et dans l'urgence.
-  * Material Design est une bonne solution pour le mobil first
+  * Material Design est une bonne solution pour le mobil first/
   
 **Choix technologique**
+React Native car il y aura un système pour gagner des grades (bonification) pour les hébérgeurs 
+Progressive Web App car la perte du réseau est probable. 
+
 
 
 

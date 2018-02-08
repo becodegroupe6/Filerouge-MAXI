@@ -1,7 +1,7 @@
 <?php
   class refugeeController {
   public function __construct(){
-    
+
   }
   public function run(){
     include View . 'header.php';

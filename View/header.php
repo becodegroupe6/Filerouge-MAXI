@@ -14,7 +14,7 @@
          </nav>
          <div class="hero-text-box">
                     <h1>Maxi <br>Connecting host communities to refugees</h1>
-             <a class="btn btn-full js--scroll-to-plans" href="#"> Maxi-host</a>
-             <a class="btn btn-ghost js--scroll-to-start" href="#">Maxi-refugee</a>
+             <a class="btn btn-full js--scroll-to-plans" href="./View/host.php"> Maxi-host</a>
+             <a class="btn btn-ghost js--scroll-to-start" href="./View/refugee.php">Maxi-refugee</a>
          </div>
        </header>

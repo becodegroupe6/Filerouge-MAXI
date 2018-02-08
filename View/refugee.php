@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Refugies</title>
-    <link rel="stylesheet" href="../style.css">
-  </head>
-  <body>
+
     <div class="Formulaire">
         <div class="cardCenter">
-          <form class="Refugies" action="index.html" method="post">
+          <form class="Refugies" action="#" method="post">
             <div class="Nom">
               <div class="Left">
                 <label for="nom">Votre Nom
@@ -55,5 +48,3 @@
           </form>
         </div>
     </div>
-  </body>
-</html>

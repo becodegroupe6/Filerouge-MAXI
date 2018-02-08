@@ -2,19 +2,31 @@
   define('View', 'View/');
   define('Controller', 'Controller/');
   define('Model', 'Model/');
+
 ?>
 
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Maxi</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./View/css/styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="./View/css/style.css">
-  </head>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+  <title>Maxi</title>
+</head>
+<body>
+  
+<?php include Controller . 'routerController.php' ?>
 
-  <body>
-    <?php include Controller . 'routerController.php' ?>
-  </body>
-</html>
+</body>
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+       <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+       <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+       <script src="vendors/js/jquery.waypoints.min.js"></script>
+       <script src="resources/js/script.js"></script>
+

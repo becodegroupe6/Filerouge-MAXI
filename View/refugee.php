@@ -24,13 +24,13 @@
             </label>
             <input type="number" name="age" min=0 max=100>
             <br/>
-            <label for="Email">Votre adresse email
-            </label>
-            <input type="email" name="email">
-            <br/>
             <label for="tel">Votre tél
             </label>
             <input type="tel" name="phone" placeholder="Ex: 04XX XXX XXX">
+            <br/>
+            <label for="Email">Votre adresse email
+            </label>
+            <input type="email" name="email">
             <br/>
             <label for="Email2">Confirmez l'adresse e-mail
             </label>

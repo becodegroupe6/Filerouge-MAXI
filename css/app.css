@@ -20,6 +20,7 @@ body {
 }
 
 .clearfix {zoom: 1;}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -48,9 +49,7 @@ section {
 }
 
 /* ----- HEADINGS ----- */
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
@@ -153,22 +152,23 @@ input[type=submit] {
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     text-align: center;
+    margin-top: 25px;
 }
 
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
     background-color: #fff;
-    border: 5px solid blue;
-    color: blue;
+    border: 2px solid #003366;
+    color: #003366;
     margin-right: 15px;
     float: right;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 5px solid blue;
-    color
+    border: 2px solid #003366;
+    color #003366;
     float: left;
     background-color:  #fff;
 }
@@ -177,20 +177,20 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #cf6d17;
-    color: blue;
+    background-color: #003366;
+    color: white;
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid #003366;
+    color: white;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #cf6d17;
-    color: #fff;
+    border: 1px solid #003366;
+    color: white;
 }
 
 
@@ -199,8 +199,8 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/header.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -227,11 +227,12 @@ header {
 }
 
 .logo-black {
-    display: left;
-    height: 150px;
+    display: center;
+    height: 250px;
     width: auto;
-    float: left;
-    margin: 5px 0;
+    margin-top: 150px;
+    margin-left: 70px;
+    padding: 0px 0px;
     color: blue;
 }
 
@@ -277,8 +278,6 @@ header {
     font-size: 200%;
     color: #fff;
 }
-
-
 
 
 /* ----------------------------------------------- */

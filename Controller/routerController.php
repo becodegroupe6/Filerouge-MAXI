@@ -1,21 +1,21 @@
 <?php
   $page = isset($_GET['page']) ? htmlentities($_GET['page']) : 'default';
   switch ($page) {
-    case 'welcome':
-      include(Controller . 'welcomeController.php');
-      $controller = new welcomeController();
+    case 'about':
+      include(Controller . 'aboutController.php');
+      $controller = new aboutController();
       break;
     case 'host':
       include(Controller . 'hostController.php');
       $controller = new hostController();
       break;
-    case 'immigrant':
+    case 'refugee':
       include(Controller . 'refugeeController.php');
       $controller = new refugeeController();
       break;
     default:
-      include(Controller . 'welcomeController.php');
-      $controller = new welcomeController();
+      include(Controller . 'aboutController.php');
+      $controller = new aboutController();
       break;
   }
   $controller->run();
